@@ -11,7 +11,7 @@ print(''''
 corrent = os.path.dirname(os.path.realpath(__file__))
 for failename in os.listdir(corrent):
     #script of img clean up 
-    if failename.endswith((".jpg" , "png")):
+    if failename.endswith((".jpg" , ".png")):
         
         if not os.path.exists('images'):
             os.mkdir('images')
